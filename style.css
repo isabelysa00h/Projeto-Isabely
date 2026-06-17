@@ -1,0 +1,17 @@
+nav {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(40px);
+   background-color: rgba(5, 10, 21, 0.837);
+}
+.logo {
+    font-family: 'Orbitron, sans-serif';
+}
+body {
+    background-color: rgb(1, 1, 11);
+    color: white;
+
+}
+
