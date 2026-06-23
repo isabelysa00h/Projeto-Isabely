@@ -1,14 +1,25 @@
-nav {
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    backdrop-filter: blur(40px);
-   background-color: rgba(5, 10, 21, 0.837);
-}
 body {
-    background-color: rgb(1, 1, 11);
-    color: white;
-
+ background-color: rgb(14, 0, 13);
+ font-family: 'Inter', sans-serif;
+ color: violet;
+ font-size: 16px;
+ font-weight: 300;
+ line-height: 2;
+ min-height: 100opx;
 }
-
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border-bottom: 3px;
+    background: rgba(3, 2, 10, 0.85);
+    border-radius: 50px;
+}
+nav > a {
+    font-family: 'Cormoront Garamond', serif;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 225, 250);
+}
