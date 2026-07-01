@@ -1,0 +1,158 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:Orbitron, Helvetica, sans-serif;
+    color:#f5f5f5;
+
+    background-color:#030312;
+
+    background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(rgb(182, 188, 255) 1px, transparent 1px),
+    radial-gradient(rgb(250, 255, 206) 2px, transparent 2px),
+    linear-gradient(#02020d,#04071b,#030312);
+
+    background-size:
+    120px 120px,
+    180px 180px,
+    250px 250px,
+    100% 100%;
+
+    background-position: 
+    0 0,
+    60px 40px, 
+    120px 80px,
+    center;  
+
+    margin:0;
+    line-height:1.6;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+
+section{
+    width:90%;
+    max-width:1000px;
+    margin:70px auto;
+}
+
+p{
+    color:#d8e3ff;
+}
+
+header{
+    background:#09172c;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom:2px solid #4f79c8;
+}
+
+header h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+#eyebrow{
+    color:#9ec5ff;
+    letter-spacing:2px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+body>h2{
+    text-align:center;
+    margin-top:40px;
+    color:#9ec5ff;
+    font-size:32px;
+}
+
+body>p{
+    width:70%;
+    margin:20px auto;
+    text-align:center;
+}
+
+#astro-dia,
+#curiosidade{
+    width:42%;
+    display:inline-block;
+    vertical-align:top;
+    margin:20px 3%;
+    padding:20px;
+    background:#112244;
+    border-radius:8px;
+}
+
+#astro-dia strong,
+#curiosidade strong{
+    color:#9ec5ff;
+}
+
+hr{
+    margin:10px 0;
+    border:1px solid #4f79c8;
+}
+
+#temas h2{
+    margin:10px 0 20px;
+}
+#temas ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+#temas li{
+    background:#112244;
+    border-radius:8px;
+}
+
+#temas li a{
+    display:block;
+    padding:20px;
+}
+#temas h3{
+    margin-bottom:10px;
+}
+
+#temas i{
+    color:#9ec5ff;
+}
+
+
+#sobre{
+    margin-top:80px;
+}
+
+#sobre h2{
+    margin:10px 0 20px;
+}
+
+footer{
+    background:#09172c;
+    text-align:center;
+    padding:35px;
+    margin-top:70px;
+    border-top:2px solid #4f79c8;
+}
+
+footer nav{
+    margin:20px 0;
+}
+
+footer nav a{
+    margin:0 15px;
+}
+
